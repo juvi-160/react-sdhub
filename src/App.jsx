@@ -1,15 +1,12 @@
-// import { useState } from 'react'
+import Layout from "./Layout"
+import Card from "./Card"
 
 
 function App() {
- 
-
-  return (
-    <>
-      <div>
-        <h1 className="text-6xl">Hello this is the my first react app</h1>
-      </div>
-    </>
+   return (
+    <Layout>
+    <Card/>
+    </Layout>
   )
 }
 
